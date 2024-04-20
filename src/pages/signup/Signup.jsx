@@ -57,7 +57,7 @@ const Signup = () => {
         <img src={icon} />
       </div>
         <h2  >Signup</h2>
-        <h3> Only for Employee </h3>
+        {/* <h3> Only for Employee </h3> */}
 
         <form className="login-form">
 
