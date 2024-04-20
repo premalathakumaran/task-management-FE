@@ -36,7 +36,7 @@ const Signup = () => {
             }
         } catch (error) {
             console.log(error)
-            toast.error("Fill all the detials")
+            toast.error("Password must contain at least one capital letter and one special character.")
         }
         finally{
             setLoading(false)
