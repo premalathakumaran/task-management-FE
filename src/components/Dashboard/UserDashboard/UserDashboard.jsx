@@ -55,11 +55,11 @@ const UserDashboard = () => {
           >
             <div className="card-header">
               <i className="fas fa-chart-area me-1"></i>
-              Task Progress Bar
+              Task Management App
             </div>
             <div className="card-body ">
               {/* Add your chart component here with the corresponding data */}
-              <UserTaskDashboard/>
+              {/* <UserTaskDashboard/> */}
             </div>
           </div>
         </div>
