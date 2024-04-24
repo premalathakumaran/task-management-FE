@@ -251,7 +251,8 @@ const TaskList = () => {
             <Modal.Title>Edit Task</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <EditTaskForm task={selectedTask} onUpdate={handleUpdateTask} />
+            {/* <EditTaskForm task={selectedTask} onUpdate={handleUpdateTask} /> */}
+            <EditTaskForm task={selectedTask} onUpdate={handleUpdateTask} onHide={handleHideEditModal} />
           </Modal.Body>
         </Modal>
       )}
