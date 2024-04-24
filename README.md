@@ -17,7 +17,7 @@ Currently, two official plugins are available:
 
 
 
-Frontend Deployment link: https://main--calm-buttercream-38d793.netlify.app/
+Frontend Deployment link:  https://elegant-semolina-c37fa5.netlify.app/
 
 
 
