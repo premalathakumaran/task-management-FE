@@ -16,7 +16,7 @@ const UserDashboard = () => {
         const fetchData = async () => {
           try {
             // Fetch user data
-            const userResponse = await AxiosService.get('/use/getdata');
+            const userResponse = await AxiosService.get('/user/getdata');
             setUserData(userResponse.data);
             setLoading(false);
           } catch (error) {

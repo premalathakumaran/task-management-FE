@@ -79,8 +79,8 @@ function CustomerNavLinks() {
       </NavLink>
        
       
-{/*      
-      <NavLink exact to="/Submitedtask" activeClassName="activeClicked">
+     
+      {/* <NavLink exact to="/Submitedtask" activeClassName="activeClicked">
         <CDBSidebarMenuItem icon="list-check">Tasks List</CDBSidebarMenuItem>
       </NavLink> */}
     </>
@@ -99,12 +99,13 @@ function UserNavLinks() {
       <NavLink exact to="/createTask" activeClassName="activeClicked">
         <CDBSidebarMenuItem icon="file">Create Task</CDBSidebarMenuItem>
       </NavLink>
-       <NavLink exact to="/register" activeClassName="activeClicked">
+
+       {/* <NavLink exact to="/register" activeClassName="activeClicked">
         <CDBSidebarMenuItem icon="user">Create User</CDBSidebarMenuItem>
       </NavLink> 
       <NavLink exact to="/home" activeClassName="activeClicked">
         <CDBSidebarMenuItem icon="table">User Data</CDBSidebarMenuItem>
-      </NavLink>
+      </NavLink> */}
       {/* <NavLink exact to="/userTask" activeClassName="activeClicked">
         <CDBSidebarMenuItem icon="table">Task</CDBSidebarMenuItem>
       </NavLink> */}

@@ -262,7 +262,9 @@ const TaskList = () => {
             <Modal.Title>Create Task</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            < CreateTask refreshTasks={refreshTasks} />
+            {/* < CreateTask refreshTasks={refreshTasks} /> */}
+
+            <CreateTask refreshTasks={refreshTasks} onHide={handleHideEditModal} />
           </Modal.Body>
         </Modal>
       )}
@@ -271,3 +273,4 @@ const TaskList = () => {
 }
 
 export default TaskList
+
